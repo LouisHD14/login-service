@@ -16,7 +16,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background-color: gray;
+    background-color: #808080;
     border-radius: 25px;
     box-shadow: -10px 15px 100px 0px rgba(0, 0, 0, 0.5);
 }
@@ -47,4 +47,91 @@ body {
     box-shadow: -5px 5px 20px 0px rgba(0, 0, 0, 0.5);
     width: 15%;
     height: 5%;
+}
+
+.anwesend {
+    width: 60%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(73, 73, 73);
+    background-color: rgb(101, 255, 87);
+    box-shadow: -5px 5px 20px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    font-size: 200%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.anwesend:hover {
+    cursor: pointer;
+    box-shadow: -5px 5px 20px 0px rgba(0, 0, 0, 1);
+    width: 66%;
+    height: 22%;
+}
+
+.anwesend:active {
+    box-shadow: -5px 5px 20px 0px rgba(0, 0, 0, 0.5);
+    width: 66%;
+    height: 22%;
+}
+
+#dateElement {
+    margin-left: 1vh;
+    margin-right: 1vh;
+    text-decoration: underline;
+}
+
+.gesperrt {
+    width: 60%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(73, 73, 73);
+    background-color: rgb(255, 87, 87);
+    box-shadow: -5px 5px 20px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    font-size: 200%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.background-button {
+    width: 60%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #494949;
+    background-color: #474554;
+    box-shadow: -5px 5px 20px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    font-size: 200%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.background-button:hover {
+    cursor: pointer;
+    box-shadow: -5px 5px 20px 0px rgba(0, 0, 0, 1);
+    width: 66%;
+    height: 22%;
+}
+
+.background-button:active {
+    box-shadow: -5px 5px 20px 0px rgba(0, 0, 0, 0.5);
+    width: 66%;
+    height: 22%;
+}
+
+.admin-button {
+    background-color: #3926b3;
 }
